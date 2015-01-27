@@ -1,0 +1,222 @@
+body
+{
+background:url('backgroundbody.jpg');
+background-attachment:fixed;
+margin:3;
+}
+
+/* Menu CSS */
+#cssmenu,
+#cssmenu ul,
+#cssmenu ul li,
+#cssmenu ul li a {
+  padding: 0;
+  margin: 0;
+  line-height: 1;
+  font-family: 'Capriola', sans-serif;
+}
+#cssmenu:before,
+#cssmenu:after,
+#cssmenu > ul:before,
+#cssmenu > ul:after {
+  content: '';
+  display: table;
+}
+#cssmenu:after,
+#cssmenu > ul:after {
+  clear: both;
+}
+#cssmenu {
+  zoom: 1;
+  height: 69px;
+  background: url(images/bottom-bg.png) repeat-x center bottom;
+  border-radius: 2px;
+  width: auto;
+}
+#cssmenu ul {
+  background: url(images/nav-bg.png) repeat-x 0px 4px;
+  height: 69px;
+  margin:auto;
+}
+#cssmenu ul li {
+  float: left;
+  list-style: none;
+}
+#cssmenu ul li a {
+  display: block;
+  height: 37px;
+  padding: 22px 30px 0;
+  margin: 4px 2px 0;
+  border-radius: 2px 2px 0 0;
+  text-decoration: none;
+  font-size: 15px;
+  color: white;
+  text-shadow: 0 1px 1px rgba(0, 0, 0, 0.75);
+  font-weight: 400;
+  opacity: .9;
+}
+#cssmenu ul li:first-child a {
+  margin: 4px 2px 0 0;
+}
+#cssmenu ul li a:hover,
+#cssmenu ul li.active a {
+  background: url(images/color.png) center bottom;
+  display: block;
+  height: 37px;
+  margin-top: 0px;
+  padding-top: 26px;
+  color: #1a95a0;
+  text-shadow: 0 1px 1px rgba(255, 255, 255, 0.35);
+  opacity: 1;
+}
+
+#footer
+{
+ text-align:center;
+ font-family:arial;
+ color:pink;
+ background:black;
+ width:100%;
+ height:50px;
+ margin-top:20px;
+ margin-bottom:15px;
+
+
+}
+/* Navigation Bar */
+
+#Navbar1
+{
+  text-align:center;
+  font-family:arial;
+  background:url('navbarprofil.png');
+  width:25%;
+  height:400px;
+  margin-left:70%;
+  margin-top:75px;
+  box-shadow: 0 0 15px 0 rgb(0, 0, 0);
+}
+
+#Navbar2
+{
+  text-align:center;
+  font-family:arial;
+  background:url('navbarvisitor.png');
+  width:25%;
+  height:250px;
+  margin-left:70%;
+  margin-top:50px;
+  box-shadow: 0 0 15px 0 rgb(0, 0, 0);
+}
+
+#Navbartwit
+{
+  text-align:center;
+  font-family:arial;
+  background:url('navbarvisitor.png');
+  width:25%;
+  height:250px;
+  margin-left:70%;
+  margin-top:50px;
+  box-shadow: 0 0 15px 0 rgb(0, 0, 0);
+}
+
+#Navbarsosialmedia
+{
+  text-align:center;
+  font-family:arial;
+  background:url('navbarakun.png');
+  width:25%;
+  height:160px;
+  margin-left:70%;
+  margin-top:50px;
+  box-shadow: 0 0 15px 0 rgb(0, 0, 0);
+}
+
+
+#Navbar3
+{
+   text-align:center;
+   font-family:arial;
+  background:url('navbarlinkteman.png');
+  width:25%;
+  height:330px;
+  margin-left:70%;
+  margin-top:50px;
+  box-shadow: 0 0 15px 0 rgb(0, 0, 0);
+}
+
+
+.logo { 	-webkit-transition:-webkit-transform .5s ease-in-out; 
+	-moz-transition:-moz-transform .5s ease-in-out; 
+	-ms-transition:-ms-transform .5s ease-in-out; 
+	-o-transition:-o-transform .5s ease-in-out; 
+	transition:transform .5s ease-in-out; 
+}
+#putar:hover { 
+-webkit-transform:rotate(360deg); 
+	-moz-transform:rotate(360deg); 
+	-ms-transform:rotate(360deg); 
+	-o-transform:rotate(360deg); 
+	transform:rotate(360deg); 
+}
+
+p
+{
+ font-family:arial;
+ color:black;
+}
+
+#Content
+{
+  color:white;
+  font-family:arial;
+  background:#e61938;
+  width:65%;
+  height:3070px;
+  margin-left:45px;
+  margin-top:-1590px;
+  box-shadow: 0 0 15px 0 rgb(0, 0, 0);
+
+}
+
+b
+{
+ color:black;
+ width:3pt;
+ height:3pt;
+ font-family:arial;
+ text-shadow: 0px 0px 15px rgb(0, 0, 0);
+}
+
+u
+{
+  color:black;
+  text-decoration:underline;
+  letter-spacing:0,5cm;
+}
+
+#gambar1{background-image:url('Film.jpg');
+width:300px;
+height:300px;
+float:left;
+margin-left:3%;
+margin-top:-270px;
+}
+
+li
+{
+color:black;
+}
+
+ol
+{
+color:black;
+}
+/* Buat tulisan shadow */
+.level1 {position: relative; top: 20; left: 25; z-index: 50; color: #00000;
+font-family: Arial; font-size:75pt}
+.level2 {position: relative; top: -100; left: 34; z-index: 6; color:
+#e67e19; font-family: Arial; font-size:75pt}
+.level3 {position: relative; top: -210; left: 30; z-index: 6; color:
+#01aef0; font-family: Arial; font-size:75pt}

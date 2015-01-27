@@ -1,0 +1,297 @@
+body
+{
+background:url('Amerika_Chicago_Resimleri.jpg');
+background-attachment:fixed;
+margin:3;
+}
+
+/* Menu CSS */
+#cssmenu,
+#cssmenu ul,
+#cssmenu ul li,
+#cssmenu ul li a {
+  padding: 0;
+  margin: 0;
+  line-height: 1;
+  font-family: 'Capriola', sans-serif;
+}
+#cssmenu:before,
+#cssmenu:after,
+#cssmenu > ul:before,
+#cssmenu > ul:after {
+  content: '';
+  display: table;
+}
+#cssmenu:after,
+#cssmenu > ul:after {
+  clear: both;
+}
+#cssmenu {
+  zoom: 1;
+  height: 69px;
+  background: url(images/bottom-bgamerika.png) repeat-x center bottom;
+  border-radius: 2px;
+  width: auto;
+}
+#cssmenu ul {
+  background: url(images/nav-bg.png) repeat-x 0px 4px;
+  height: 69px;
+  margin:auto;
+}
+#cssmenu ul li {
+  float: left;
+  list-style: none;
+}
+#cssmenu ul li a {
+  display: block;
+  height: 37px;
+  padding: 22px 30px 0;
+  margin: 4px 2px 0;
+  border-radius: 2px 2px 0 0;
+  text-decoration: none;
+  font-size: 15px;
+  color: white;
+  text-shadow: 0 1px 1px rgba(0, 0, 0, 0.75);
+  font-weight: 400;
+  opacity: .9;
+}
+#cssmenu ul li:first-child a {
+  margin: 4px 2px 0 0;
+}
+#cssmenu ul li a:hover,
+#cssmenu ul li.active a {
+  background: url(images/coloramerika.png) center bottom;
+  display: block;
+  height: 37px;
+  margin-top: 0px;
+  padding-top: 26px;
+  color: #000000;
+  text-shadow: 0 1px 1px rgba(255, 255, 255, 0.35);
+  opacity: 1;
+}
+
+#footer
+{
+ text-align:center;
+ font-family:arial;
+ color:pink;
+ background:black;
+ width:100%;
+ height:50px;
+ margin-top:20px;
+ margin-bottom:15px;
+
+
+}
+/* Navigation Bar */
+
+#Navbar1
+{
+  text-align:center;
+  font-family:arial;
+  background:url('navbarprofilamerika.png');
+  width:25%;
+  height:400px;
+  margin-left:70%;
+  margin-top:75px;
+  box-shadow: 0 0 15px 0 rgb(0, 0, 0);
+}
+
+#Navbar2
+{
+  text-align:center;
+  font-family:arial;
+  background:url('navbarvisitoramerika.png');
+  width:25%;
+  height:250px;
+  margin-left:70%;
+  margin-top:50px;
+  box-shadow: 0 0 15px 0 rgb(0, 0, 0);
+}
+
+#Navbar3
+{
+   text-align:center;
+   font-family:arial;
+  background:url('navbarlinktemanamerika.png');
+  width:25%;
+  height:330px;
+  margin-left:70%;
+  margin-top:50px;
+  box-shadow: 0 0 15px 0 rgb(0, 0, 0);
+}
+
+.logo { 	-webkit-transition:-webkit-transform .5s ease-in-out; 
+	-moz-transition:-moz-transform .5s ease-in-out; 
+	-ms-transition:-ms-transform .5s ease-in-out; 
+	-o-transition:-o-transform .5s ease-in-out; 
+	transition:transform .5s ease-in-out; 
+}
+#putar:hover { 
+-webkit-transform:rotate(360deg); 
+	-moz-transform:rotate(360deg); 
+	-ms-transform:rotate(360deg); 
+	-o-transform:rotate(360deg); 
+	transform:rotate(360deg); 
+}
+
+#Navbarsosialmedia
+{
+  text-align:center;
+  font-family:arial;
+  background:url('navbarakunamerika.png');
+  width:25%;
+  height:160px;
+  margin-left:70%;
+  margin-top:50px;
+  box-shadow: 0 0 15px 0 rgb(0, 0, 0);
+}
+
+#Navbartwit
+{
+  text-align:center;
+  font-family:arial;
+  background:url('navbarvisitor.png');
+  width:25%;
+  height:250px;
+  margin-left:70%;
+  margin-top:50px;
+  box-shadow: 0 0 15px 0 rgb(0, 0, 0);
+}
+
+p
+{
+ font-family:arial;
+ color:black;
+}
+
+#Content
+{
+  color:white;
+  font-family:arial;
+  background:#9e3cbe;
+  width:65%;
+  height:200px;
+  margin-left:45px;
+  margin-top:-1590px;
+  box-shadow: 0 0 15px 0 rgb(0, 0, 0);
+
+}
+
+#contentvampir
+{
+ color:white;
+ background:#ac84b9;
+ width:65%;
+ height:1820px;
+ margin-left:39px;
+ margin-top:40px;
+ box-shadow: 0 0 15px 0 rgb(0, 0, 0);
+
+}
+
+#contentlego
+{
+ color:white;
+ background:#b5defe;
+ width:65%;
+ height:1650px;
+ margin-left:39px;
+ margin-top:40px;
+ box-shadow: 0 0 15px 0 rgb(0, 0, 0);
+
+}
+
+#contentnut
+{
+ color:white;
+ background:#e18d43;
+ width:65%;
+ height:1750px;
+ margin-left:39px;
+ margin-top:40px;
+ box-shadow: 0 0 15px 0 rgb(0, 0, 0);
+
+}
+
+#contentlife
+{
+ color:white;
+ background:#4395e1;
+ width:65%;
+ height:3600px;
+ margin-left:39px;
+ margin-top:40px;
+ box-shadow: 0 0 15px 0 rgb(0, 0, 0);
+
+}
+
+#contenthotel
+{
+ color:white;
+ background:#ab84df;
+ width:65%;
+ height:2450px;
+ margin-left:39px;
+ margin-top:40px;
+ box-shadow: 0 0 15px 0 rgb(0, 0, 0);
+
+}
+
+#contentwreck
+{
+ color:white;
+ background:#e9c368;
+ width:65%;
+ height:2100px;
+ margin-left:39px;
+ margin-top:40px;
+ box-shadow: 0 0 15px 0 rgb(0, 0, 0);
+
+}
+
+#contentcaro
+{
+ background:#7f81aa;
+ width:65%;
+ height:2600px;
+ margin-left:39px;
+ margin-top:40px;
+ box-shadow: 0 0 15px 0 rgb(0, 0, 0);
+ color:white;
+}
+
+#contenthobit
+{
+ background:#bca37d;
+ width:65%;
+ height:1900px;
+ margin-left:39px;
+ margin-top:40px;
+ box-shadow: 0 0 15px 0 rgb(0, 0, 0);
+}
+
+
+b
+{
+ color:black;
+ width:3pt;
+ height:3pt;
+ font-family:arial;
+ text-shadow: 0px 0px 15px rgb(0, 0, 0);
+}
+
+u
+{
+  color:white;
+  text-decoration:underline;
+  letter-spacing:0,5cm;
+}
+
+/* Buat tulisan shadow */
+.level1 {position: relative; top: 75; left: 25; z-index: 50; color: #6415d0;
+font-family: Arial; font-size:45pt}
+.level2 {position: relative; top: 5; left: 34; z-index: 6; color:
+#222124; font-family: Arial; font-size:45pt}
+.level3 {position: relative; top: -60; left: 30; z-index: 6; color:
+#3e3879; font-family: Arial; font-size:45pt}
